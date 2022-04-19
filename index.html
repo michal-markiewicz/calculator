@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <h1>Calculator</h1>
+        <p>Type values using keyboard or click buttons. % is equal to modulo (remainder after division). ** is equal to exponentiation (raising to the power)</p>
+        
+        <div class="input-container">
+            <span id="calculator-input"></span>
+        </div>
+
+        <div class="operators-container">
+            <button class="operator">+</button>
+            <button class="operator">-</button>
+            <button class="operator">/</button>
+            <button class="operator">*</button>
+            <button class="operator">**</button>
+            <button class="operator">%</button>
+            <button class="operator">.</button>
+        </div>
+
+        <div class="values-container">
+            <button class="value">0</button>
+            <button class="value">1</button>
+            <button class="value">2</button>
+            <button class="value">3</button>
+            <button class="value">4</button>
+            <button class="value">5</button>
+            <button class="value">6</button>
+            <button class="value">7</button>
+            <button class="value">8</button>
+            <button class="value">9</button>
+        </div>
+
+        <button id="clear-button">Clear</button>
+        <button id="submit-button">Submit</button>
+        <h3 id="final-value"></h3>
+        <div id="previous-calculations">
+            <h3>Previous calculations: </h3>
+            <ol></ol>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
